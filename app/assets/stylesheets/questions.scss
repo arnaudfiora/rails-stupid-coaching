@@ -1,0 +1,79 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  h1 {
+    font-family: 'Staatliches', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+  }
+}
+
+.container {
+  padding-top: 20px;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container-form {
+  display: flex;
+  padding-top: 20px;
+  width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  border-left: 5px solid grey;
+  border-radius: 10px;
+  background: lightgrey;
+  padding: 10px;
+  p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+  }
+
+  .username {
+    font-size: 14px;
+    font-weight: bold;
+  }
+}
+
+.link {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  background-color: red;
+  color: white;
+}
+
+.question-box {
+  height: 20px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+.button-submit {
+  height: 26px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+}
